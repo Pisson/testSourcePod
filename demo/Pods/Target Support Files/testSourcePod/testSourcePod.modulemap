@@ -1,0 +1,6 @@
+framework module testSourcePod {
+  umbrella header "testSourcePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+module testObjcModule {
+    header "testSourcePod/ObjcFile.h"
+    export *
+}

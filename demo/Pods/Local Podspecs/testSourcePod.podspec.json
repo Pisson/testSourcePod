@@ -1,0 +1,38 @@
+{
+  "name": "testSourcePod",
+  "version": "1.0.0",
+  "summary": "混编SDK",
+  "description": "混编源码SDK",
+  "homepage": "http://gitlab.afanticar.com:13140/fhltools/aft_fhl_om_ios.git",
+  "authors": {
+    "pangshenlin": "554665783@qq.com"
+  },
+  "source": {
+    "git": "http://gitlab.afanticar.com:13140/fhltools/aft_fhl_om_ios.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "testSourcePod/**/*",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": [
+    "UIKit",
+    "Security",
+    "CoreTelephony"
+  ],
+  "prefix_header_file": "PrefixHeader.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "HandyJSON": [
+
+    ]
+  }
+}
